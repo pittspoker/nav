@@ -2,10 +2,10 @@
 /* XXXXXXXXXXXXXX NAV XXXXXXXXXXXXX */
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
-body{
+/*body{
     width: 100%;
     margin: auto;
-}
+}*/
 .container-logo-inscription{
     display: flex;
     align-items: center;
