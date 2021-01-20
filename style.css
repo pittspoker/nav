@@ -1,0 +1,111 @@
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* XXXXXXXXXXXXXX NAV XXXXXXXXXXXXX */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+body{
+    width: 100%;
+    margin: auto;
+}
+.container-logo-inscription{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav-element1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    padding-left: 85px;
+}
+
+.nav-element a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    padding-left: 85px;
+}
+
+.nav-element2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    padding-left: 85px;
+}
+
+.container-link-reverse{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    position: relative;
+    bottom: 45px;
+    
+}
+
+.container-link-reverse{
+    padding-right: 200px;
+}
+
+
+@media screen and (max-width: 700px){
+    .container-link-reverse{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        position: initial;
+        bottom: inherit; 
+        margin-top: 35px;
+        width: 100%;
+
+    }
+
+    .nav-element1 a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        padding-left: inherit;
+    }
+    .nav-element a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        padding-left: inherit;
+        
+    }
+    .nav-element2 a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        padding-left: inherit;
+    }
+
+    nav{
+        margin: 0;
+        border-bottom: 1px solid grey;
+        
+    }
+
+    .nav-element{
+        width: 50%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .nav-element2{
+        width: 50%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .nav-element:hover{
+        border-bottom: 1px solid blue; 
+        padding-bottom: 50px;
+    }
+
+    .nav-element2:hover{
+        border-bottom: 1px solid blue; 
+        padding-bottom: 50px;
+    }    
+}
