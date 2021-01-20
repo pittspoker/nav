@@ -12,6 +12,7 @@ body{
     justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
+   z-index: 999999999;
 }
 
 .nav-element1 a{
@@ -26,6 +27,8 @@ body{
     color: black;
     font-size: 1.2em;
     padding-left: 85px;
+    position: relative;
+    bottom: 45px;
 }
 
 .nav-element2 a{
@@ -33,19 +36,18 @@ body{
     color: black;
     font-size: 1.2em;
     padding-left: 85px;
+    position: relative;
+    bottom: 45px;
 }
 
 .container-link-reverse{
     display: flex;
     align-items: center;
     justify-content:flex-end;
-    position: relative;
-    bottom: 45px;
-    
-}
 
-.container-link-reverse{
     padding-right: 200px;
+
+    
 }
 
 
@@ -54,8 +56,8 @@ body{
         display: flex;
         align-items: center;
         justify-content:space-between;
-        position: initial;
-        bottom: inherit; 
+        /*position: initial;
+        bottom: inherit; */
         margin-top: 35px;
         width: 100%;
 
@@ -66,12 +68,15 @@ body{
         color: black;
         font-size: 1.2em;
         padding-left: inherit;
+
     }
     .nav-element a{
         text-decoration: none;
         color: black;
         font-size: 1.2em;
         padding-left: inherit;
+        position: initial;
+        bottom: inherit;
         
     }
     .nav-element2 a{
@@ -79,6 +84,8 @@ body{
         color: black;
         font-size: 1.2em;
         padding-left: inherit;
+        position: initial;
+        bottom: inherit;
     }
 
     nav{
